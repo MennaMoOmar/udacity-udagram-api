@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "username": { "ENV": "POSTGRES_USERNAME" },
+    "password": { "ENV": "POSTGRES_PASSWORD" },
+    "database": { "ENV": "POSTGRES_DB" },
+    "port": { "ENV": "PORT" },
+    "dbPort": { "ENV": "DB_PORT" },
+    "host": { "ENV": "POSTGRES_HOST" },
+    "dialect": "postgres",
+    "aws_region": { "ENV": "AWS_REGION" },
+    "aws_profile": { "ENV": "AWS_PROFILE" },
+    "aws_media_bucket": { "ENV": "AWS_BUCKET" },
+    "url": { "ENV": "URL" },
+    "jwt": {
+      "secret": { "ENV": "JET_SECRET" }
+    }
+  }
+}
