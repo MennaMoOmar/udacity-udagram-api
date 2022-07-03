@@ -12,7 +12,7 @@
     "aws_media_bucket": { "ENV": "AWS_BUCKET" },
     "url": { "ENV": "URL" },
     "jwt": {
-      "secret": { "ENV": "JET_SECRET" }
+      "secret": { "ENV": "JWT_SECRET" }
     }
   }
 }
